@@ -1,0 +1,37 @@
+.cont-sup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarj-g{
+    display: flex;
+    margin-bottom: 30px;
+    width: 80%;
+    justify-content: space-between;
+}
+.tarj-e{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-right: 30px;
+}
+.tarj-e label{
+    padding-bottom: 10px;
+}
+.tarj-motivo{
+    margin-bottom: 30px;
+    width: 80%;
+}
+.tarj-motivo-e{
+    display: flex;
+    flex-direction: column;
+}
+.tarj-motivo-e label{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style ejercicio formularios.css">
+</head>
+
+<body>
+    <main>
+        <div class="cont-sup">
+            <h1>
+                Botón de arrepentimiento
+            </h1>
+            <h2>
+                Resolución 424/2020 - Devoluciones de compras en internet
+            </h2>
+            <p>
+                Te recordamos que el producto a devolver debe estar tal cual lo recibiste. Tenés hasta 10 días de
+                corrido desde que lo compraste y/o recibido para realizar la devolución.
+            </p>
+        </div>
+        <form action="" method="post">
+                <div class="tarj-g">
+                    <div class="tarj-e">
+                        <label for="Emp">Empresa*</label>
+                        <input type="text" name="Emp" required>
+                    </div>
+                    <div class="tarj-e">
+                        <label for="cuit">CUIT(sin guiones)*</label>
+                        <input type="number" name="cuit" required>
+                    </div>
+                </div>
+                <div class="tarj-g">
+                    <div class="tarj-e">
+                        <label for="nom">Nombre*</label>
+                        <input type="text" name="nom" required>
+                    </div>
+                    <div class="tarj-e">
+                        <label for="apell">Apellido*</label>
+                        <input type="text" name="apell" required>
+                    </div>
+                </div>
+                <div class="tarj-g">
+                    <div class="tarj-e">
+                        <label for="dni">DNI*</label>
+                        <input type="number" name="dni" required>
+                    </div>
+                    <div class="tarj-e">
+                        <label for="tel">Teléfono*</label>
+                        <input type="tel" name="tel" required>
+                    </div>
+                </div>
+                <div class="tarj-g">
+                    <div class="tarj-e">
+                        <label for="mail">EMAIL*</label>
+                        <input type="email" name="mail" required>
+                    </div>
+                    <div class="tarj-e">
+                        <label for="confmail">Confirmación de Email</label>
+                        <input type="text" name="confmail" required>
+                    </div>
+                </div>
+                <div class="tarj-g">
+                    <div class="tarj-e">
+                        <label for="ncomp">Nº de compra*</label>
+                        <input type="text" name="ncomp" required>
+                    </div>
+                    <div class="tarj-e">
+                        <label for="prod">Prodcuto*</label>
+                        <input type="text" name="prod" required>
+                    </div>
+                </div>
+                <div class="tarj-motivo">
+                    <div class="tarj-motivo-e">
+                        <label for="motivo">Motivo de devolución</label>
+                        <textarea name="motivo" id="" cols="80" rows="15"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Cancelar Compra">
+                </div>
+        </form>
+    </main>
+</body>
+
+</html>
